@@ -1,9 +1,47 @@
 # BuildSystem
-Buildystem that produces a boiler plate code along with make file so that you can instantly jumpstart a clean-neat and organised C code while saving you minutes of repetetive tasks
+Buildystem that produces a boiler plate code so that you can instantly jumpstart to writing clean and organised code,
+while saving you minutes of Repetetive & Monotive tasks
 
-How to Use:
-1.To get started with the buildsystem it is adviced that you change s_dir in the buildsys.sh file to the location of buildsystemplates that is installed alongside buildsys.sh.
-2.Followed by adding executable privilages to buildsys.sh, done via $ chmod +x buildsys.h .
-3.Run the file and provide a valid argument for build system name eg: $ ./buildsys.sh <YOUR_PROJECTNAME_HERE> 
-4.Type 1 since as of right now only the ctemplate is added
-5.And boom your buildsystem directory is created for you to jumpstart into any project with organised .c .h and Makefiles taylored to your custom project name
+# How to Install:
+1. Type the following in your terminal:
+```bash
+git clone https://github.com/IhitplayzYT/BuildSystem.git
+```
+2. Move to the installed Directory:
+```bash
+cd Buildystem
+```
+3. Run the Makefile as root user to install the Build System scripts & Templates.Sudo is required to add the main buildsystem script to your /usr/bin directory:
+```bash
+sudo make install
+```
+4. Restart the terminal session/Source your .bashrc:
+```bash
+source $HOME/.bashrc
+```
+
+# How to Get started
+#### Simply run the script with your choice of name
+```bash
+buildsys <YOUR_DESIRED_PROJECT_NAME>
+// Choose the appropriate template and enter the number
+cd <YOUR_DESIRED_PROJECT_NAME>
+// Enjoy !!
+```
+
+
+# To UNINSTALL go to install directory and run following:
+```bash
+sudo make uninstall
+```
+
+# Single install script
+```bash
+git clone https://github.com/IhitplayzYT/BuildSystem.git
+cd Buildsystem
+sudo make install
+source $HOME/.bashrc
+```
+
+
+
