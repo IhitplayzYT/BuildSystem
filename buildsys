@@ -38,6 +38,7 @@ fi
 # Creating and cloning into the directory
 mkdir $proj_name
 cd $proj_name
+git init
 cp -R $s_dir/* .
 
 # In the currnt dir does renaming of the PROJ_NAME placeholder in the files
@@ -51,5 +52,5 @@ for x in *;do
     fi
     
 done
-# COmpletion message
+# Completion message
 echo -e "\e[1;32m Creation is successful!\e[0m"
