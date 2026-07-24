@@ -38,7 +38,7 @@ fi
 # Creating and cloning into the directory
 mkdir $proj_name
 cd $proj_name
-cp -R "$s_dir"/* .
+cp -R "$s_dir"/. .
 
 # In the currnt dir does renaming of the PROJ_NAME placeholder in the files
 find . -depth | while IFS= read -r path; do
