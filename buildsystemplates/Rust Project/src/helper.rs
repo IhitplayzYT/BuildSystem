@@ -30,7 +30,9 @@ pub mod Helper{
            for i in &args{
                 if i == "-d" || i == "--debug" || i == " --DEBUG" || i == "-D"{
                     self.dbg = true;
-                }else{
+                } else if i == "-h" || i == "--help" || i == " --HELP" || i == "-H"{
+                    Help();
+                } else{
                     Help();
                 }
            } 
