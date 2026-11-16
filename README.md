@@ -30,6 +30,10 @@ cd <YOUR_DESIRED_PROJECT_NAME>
 ```
 
 
+https://github.com/user-attachments/assets/71ed510a-2d57-4c44-974e-9027aa0dc4b8
+
+
+
 # To UNINSTALL go to install directory and run following:
 ```bash
 sudo make uninstall
